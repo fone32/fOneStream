@@ -1,4 +1,4 @@
-; f/OneStream for f/One DOS Extender DPMI FASM Runtime (c) ACP
+; f/OneStream for f/One DOS Extender DPMI FASM Runtime (c) ACP 2014
 ; testfstream.asm: demonstrate how Win32 application can use f/OneStream
 
 format PE GUI 4.0

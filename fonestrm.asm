@@ -1,7 +1,8 @@
-; f/OneStream for f/One DOS Extender DPMI FASM Runtime (c) ACP
+; f/OneStream for f/One DOS Extender DPMI FASM Runtime (c) ACP 2014
 ; fonestrm.asm: base DLL library to communicate with f/OneStream drivers
+; compile: fasm fonestrm.asm
 
-format PE GUI 4.0 DLL
+format PE GUI 4.0 DLL on 'fonestrm.dll'
 entry DllMain
 
 include 'win32a.inc'
